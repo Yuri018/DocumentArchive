@@ -8,7 +8,7 @@ import java.util.List;
 public interface Archive {
     public boolean addDocument(Document document);
 
-    public void updateDocument(Document updateDoc);
+    public void updateDocument(int documentId);
 
     public Document getDocumentById(int documentId);
     public List<Document> getAllDocuments();
@@ -17,6 +17,6 @@ public interface Archive {
 
     public List<Document> getDocumentForPeriod(LocalDate startDate, LocalDate endDate);
 
-    public void deleteDocument(int documentId);
+    public boolean deleteDocument(int documentId);
 
 }
