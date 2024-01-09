@@ -7,7 +7,7 @@ import java.util.List;
 
 public class ArchiveImpl implements Archive {
     @Override
-    public boolean createDocument(Document document) {
+    public boolean addDocument(Document document) {
 
         return false;
     }

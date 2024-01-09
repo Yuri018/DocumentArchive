@@ -6,7 +6,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 public interface Archive {
-    public boolean createDocument(Document document);
+    public boolean addDocument(Document document);
 
     public void updateDocument(Document updateDoc);
 
