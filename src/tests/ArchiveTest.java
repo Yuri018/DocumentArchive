@@ -22,9 +22,9 @@ class ArchiveTest {
     void setUp() {
         //создаем список документов
         documents = List.of(
-                new Document(1, "document_1", "annotation_1", LocalDate.of(2023, 02, 1)),
-                new Document(2, "document_2", "annotation_2", LocalDate.of(2023, 03, 5)),
-                new Document(3, "document_3", "annotation_3", LocalDate.of(2023, 04, 10))
+                new Document(1, "document_1", "annotation_1", "Ivan",LocalDate.of(2023, 02, 1)),
+                new Document(2, "document_2", "annotation_2", "Petr", LocalDate.of(2023, 03, 5)),
+                new Document(3, "document_3", "annotation_3", "Juri", LocalDate.of(2023, 04, 10))
         );
         //добавляем документы в архив
         for (Document d : documents) {
@@ -34,7 +34,7 @@ class ArchiveTest {
 
     @Test
     void addDocument() {
-        Document d = new Document(4, "document_4", "annotation_4", LocalDate.of(2023, 05, 15));
+        Document d = new Document(4, "document_4", "annotation_4", "Max", LocalDate.of(2023, 05, 15));
         assertTrue(testArchive.addDocument(d));
         assertFalse(testArchive.addDocument(d));
     }
@@ -82,7 +82,7 @@ class ArchiveTest {
     }
 
     @Test
-    void searchDocuments() {
+    void searchDocumentsByWord() {
         String keyword = "document_2";
         List<Document> res = new ArrayList<>();
         for (Document d : documents) {

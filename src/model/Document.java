@@ -7,13 +7,23 @@ public class Document {
     private int id;
     private String title;
     private String annotation;
+    private String personName;
     private LocalDate archiveDate;
 
-    public Document(int id, String title, String annotation, LocalDate archiveDate) {
+    public Document(int id, String title, String annotation, String personName, LocalDate archiveDate) {
         this.id = id;
         this.title = title;
         this.annotation = annotation;
+        this.personName = personName;
         this.archiveDate = archiveDate;
+    }
+
+    public String getPersonName() {
+        return personName;
+    }
+
+    public void setPersonName(String personName) {
+        this.personName = personName;
     }
 
     public int getId() {
@@ -67,6 +77,7 @@ public class Document {
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", annotation='" + annotation + '\'' +
+                ", personName='" + personName + '\'' +
                 ", archiveDate=" + archiveDate +
                 '}';
     }

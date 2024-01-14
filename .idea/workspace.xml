@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="758d12a2-dc90-439c-b3ce-631ff9651748" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/src/tests/ArchiveTest.java" afterDir="false" />
+    <list default="true" id="758d12a2-dc90-439c-b3ce-631ff9651748" name="Changes" comment="added code to class ArchiveTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DocumentArchive.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DocumentArchive.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dao/Archive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/Archive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dao/ArchiveImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/ArchiveImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Document.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/ArchiveTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ArchiveTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,7 @@
       <list>
         <option value="AnnotationType" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,13 +58,16 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/AIT TR Student/IdeaProjects/test",
+    "last_opened_file_path": "C:/Users/AIT TR Student/IdeaProjects/DocumentArchive/src",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="tests" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\AIT TR Student\IdeaProjects\DocumentArchive\src" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -186,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704793665946</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added code to class ArchiveTest">
+      <option name="closed" value="true" />
+      <created>1704834244238</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704834244238</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,6 +214,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="added code to class ArchiveTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="added code to class ArchiveTest" />
   </component>
 </project>

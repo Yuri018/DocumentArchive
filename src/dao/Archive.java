@@ -11,9 +11,11 @@ public interface Archive {
     public void updateDocument(int documentId);
 
     public Document getDocumentById(int documentId);
+
+    public List<Document> getDocumentByPerson(String person);
     public List<Document> getAllDocuments();
 
-    public List<Document> searchDocuments(String keyword);
+    public boolean searchDocumentsByWord(String keyword);
 
     public List<Document> getDocumentForPeriod(LocalDate startDate, LocalDate endDate);
 
